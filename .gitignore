@@ -1,0 +1,30 @@
+Python
+
+pycache/
+*.py[cod]
+
+Virtual environments
+
+.venv/
+venv/
+env/
+
+Jupyter Notebook
+
+.ipynb_checkpoints/
+
+Secrets
+
+.env
+.env.*
+
+Dataset files
+
+data/
+*.csv
+*.zip
+
+Operating system files
+
+.DS_Store
+Thumbs.db

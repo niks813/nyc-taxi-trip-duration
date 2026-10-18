@@ -12,7 +12,7 @@ Accurate trip duration estimates can help improve trip planning, passenger exper
 
 ## Dataset
 
-Source: NYC Taxi Trip Duration — Kaggle
+Source: [NYC Taxi Trip Duration](https://www.kaggle.com/datasets/yasserh/nyc-taxi-trip-duration) — Kaggle
 
 Dataset size: Approximately 1.46 million records before cleaning.
 
@@ -69,18 +69,26 @@ nyc-taxi-trip-duration/
 └── data/
     └── NYC.csv  # Local dataset; excluded from Git
 
+
 ## Current Status
 
-Data loading, initial exploration, and data-cleaning investigations have begun. Model development and evaluation results will be documented as the project progresses.
+Project has been cleaned further and after rerunning it all cells are working fine. Work for writing down markdown instructions before relevant cells have begun which will explain the project and its working in detail. In future cleaning the project and all details with updating readme file and commiting all relevant files to the github will be done.
 
-## Future Improvements
 
-- Compare multiple regression algorithms.
+## Project Results
 
-- Evaluate models using appropriate regression metrics.
+This project completed an end-to-end machine learning regression workflow for predicting NYC taxi trip durations, including data preprocessing, feature engineering, regression model comparison, and model evaluation.
 
-- Tune model hyperparameters systematically.
+The notebook contains the implementation, experiments, and evaluation results.
 
-- Analyze prediction errors and feature importance.
+## Key Learnings
 
-- Document the final model and its limitations.
+- Working with a large, real-world dataset.
+
+- Data quality assessment and outlier treatment.
+
+- Geospatial and datetime feature engineering.
+
+- Comparing regression algorithms using evaluation metrics.
+
+- Evaluating model performance to support model selection.

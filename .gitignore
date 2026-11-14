@@ -2,6 +2,7 @@ Python
 
 pycache/
 *.py[cod]
+*.egg-info/
 
 Virtual environments
 

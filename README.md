@@ -103,16 +103,22 @@ NYC-Trip-duration/
 ## Setup and Execution
 
 ### 1. Clone the repository
-git clone <repository-url>
-cd NYC-taxi-trip-duration
+```
+git clone https://github.com/niks813/nyc-taxi-trip-duration.git
+cd NYC-trip-duration
+```
 
 
 ### 2. Create a virtual environment
+```
 uv venv --python 3.14.7
+```
 
 
 ### 3. Install dependencies
+```
 uv pip install --python .venv/Scripts/python.exe -r requirements.txt
+```
 
 
 ### 4. Download the dataset

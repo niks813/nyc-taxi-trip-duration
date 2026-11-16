@@ -193,7 +193,7 @@ NYC-taxi-trip-duration/
 1. Clone the Repository
 ```
 git clone https://github.com/niks813/nyc-taxi-trip-duration.git
-cd nyc-taxi-trip-duration
+cd NYC-Trip-Duration
 ```
 2. Create a Virtual Environment
 ```
